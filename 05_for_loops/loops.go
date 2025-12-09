@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // for only construct in go for looping
 func main() {
@@ -18,6 +20,10 @@ func main() {
 		}
 		fmt.Println(i)
 	}
-	// Output: 0 1 2
-
+	fmt.Println()
+	//range in go language 
+	//0 -> 4 
+	for i := range 5 {
+		fmt.Println(i)
+	}
 }
