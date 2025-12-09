@@ -11,9 +11,13 @@ func main() {
 		i++
 	}
 	fmt.Println()
-	//classic for loops 
+	//classic for loops
 	for i := 0; i < 5; i++ {
+		if i == 3 {
+			continue
+		}
 		fmt.Println(i)
 	}
+	// Output: 0 1 2
 
 }
